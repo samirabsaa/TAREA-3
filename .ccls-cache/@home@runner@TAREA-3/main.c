@@ -4,11 +4,13 @@
 
 int main(){
 
+  printf("")
   printf("1.Agregar Tarea");
   printf("2.Establecer Precendencia entre tareas"); 
   printf("3. Mostrar Tareas por Hacer"); 
   printf("4. Marcar tarea como completada"); 
-  printf(""); 
+  printf("5. Deshacer última acción");
+  printf("6. Cargar datos de tareas desde un archivo"); 
 
   int comando; 
   scanf("%i", &comando); 
