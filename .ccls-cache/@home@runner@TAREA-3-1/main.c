@@ -8,12 +8,14 @@
 #define BARRAS printf("------------------------------------------\n")
 
 
+
+
 int main(){
 
   BARRAS;
-  printf("¿Qué acción desea realizar\n?"); 
-  printf("1.Agregar Tarea\n");
-  printf("2.Establecer Precendencia entre tareas\n"); 
+  printf("  ¿Qué acción desea realizar\n?"); 
+  printf("1. Agregar Tarea\n");
+  printf("2. Establecer Precendencia entre tareas\n"); 
   printf("3. Mostrar Tareas por Hacer\n"); 
   printf("4. Marcar tarea como completada\n"); 
   printf("5. Deshacer última acción\n");
